@@ -1,0 +1,17 @@
+package basic;
+
+public class B002_Datatypes {
+	
+		public static void main(String[] args) {
+			
+			
+			byte b = -128;
+			System.out.println(b);
+			short s = 12;
+			int i = 8997997;
+			long l = 5656564545544l;
+			System.out.println(l);
+			
+		}
+	
+}

@@ -1,0 +1,24 @@
+package basic;
+
+public class B002_Datatypes {
+	
+		public static void main(String[] args) {
+			
+			
+//			byte b = -128;
+//			System.out.println(b);
+//			short s = 12;
+//			int i = 8997997;
+//			long l = 56565645455l;
+//			System.out.println(s+" - "+i+" - "+l);
+			
+			
+			float f = 123.56f;
+			System.out.println(f);
+			
+			
+			
+			
+		}
+	
+}
