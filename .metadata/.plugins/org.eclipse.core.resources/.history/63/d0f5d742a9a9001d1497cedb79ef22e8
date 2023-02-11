@@ -1,0 +1,12 @@
+package statements;
+
+public class S006_For {
+	public static void main(String[] args) {
+		
+		
+		System.out.println("*");
+		
+		
+		
+	}
+}
