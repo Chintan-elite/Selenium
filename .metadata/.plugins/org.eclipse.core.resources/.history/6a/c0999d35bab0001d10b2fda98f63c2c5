@@ -1,0 +1,17 @@
+package basicPracticals;
+
+public class B005_Armstrong {
+	public static void main(String[] args) {
+		
+		
+		int num = 153;
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package basicPracticals;
+
+public class B003_Summation {
+	public static void main(String[] args) {
+		
+		int k = 50;
+		int sum=0;
+		for(int i=1;i<=k;i++)
+		{
+			sum = sum + i;
+		}
+		
+		System.out.println("sum is : "+sum);
+	}
+}
