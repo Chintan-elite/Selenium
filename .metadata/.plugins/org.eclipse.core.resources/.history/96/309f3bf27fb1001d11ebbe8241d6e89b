@@ -16,7 +16,8 @@ public class A002_User_array {
 			System.out.println("Enter value for index : "+i);
 			a[i]= sc.nextInt();
 		}
-			
+		
+		
 		
 		for(int i=0;i<a.length;i++)
 		{
