@@ -1,0 +1,35 @@
+package oops;
+
+class Emp
+{
+	int id;
+	String name;
+	String email;
+	
+	Emp()
+	{
+		System.out.println("const calling....");
+	}
+	
+	Emp(int a, String b, String c)
+	{
+		System.out.println("call");
+	}
+	
+	
+	public void display()
+	{
+		System.out.println(id+" "+name+" "+email);
+	}
+}
+
+public class O003_constructor {
+	public static void main(String[] args) {
+		
+		Emp e1 = new Emp(10,"xyz","xyz@gmail.com");
+		e1.display();
+		
+		Emp e2 = new Emp();
+		e2.display();
+	}
+}

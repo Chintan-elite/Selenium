@@ -1,0 +1,15 @@
+package oops;
+
+class Student
+{
+	
+}
+
+
+public class O002_Second {
+	public static void main(String[] args) {
+		
+		Pen p = new Pen();
+		p.toWrite();
+	}
+}
