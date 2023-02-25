@@ -1,0 +1,11 @@
+package oops;
+
+public class Sample {
+	public int id;
+	String name;
+	
+	public void display()
+	{
+		System.out.println("Runinng display");
+	}
+}

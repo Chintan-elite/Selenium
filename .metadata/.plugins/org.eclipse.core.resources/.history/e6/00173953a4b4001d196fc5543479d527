@@ -1,0 +1,15 @@
+package oops;
+
+class Employee
+{
+	
+}
+
+public class O004_Contrtructor1 {
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		
+		
+	}
+}

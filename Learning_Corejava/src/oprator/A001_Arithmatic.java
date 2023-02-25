@@ -1,5 +1,7 @@
 package oprator;
 
+import oops.Sample;
+
 public class A001_Arithmatic {
 	public static void main(String[] args) {
 		
@@ -18,6 +20,8 @@ public class A001_Arithmatic {
 //		System.out.println(10+"10");
 //		System.out.println("test"+10+10);
 //		System.out.println(10+10+"test");
+		
+		
 		
 	}
 }
