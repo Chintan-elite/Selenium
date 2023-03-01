@@ -28,6 +28,13 @@ class B extends A
 	
 }
 
+class C extends B
+{
+	
+}
+
+
+
 public class O009_Inheritance {
 	public static void main(String[] args) {
 		
