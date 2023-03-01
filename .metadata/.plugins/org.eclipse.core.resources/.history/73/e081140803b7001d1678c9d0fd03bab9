@@ -1,0 +1,13 @@
+package oops;
+
+public class O007_Encaptulation {
+	public static void main(String[] args) {
+		
+		Std s = new Std();
+		//s.id=20;
+		//s.name="Test";
+		s.display();
+		
+		
+	}
+}

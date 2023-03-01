@@ -2,7 +2,7 @@ package oops;
 
 public class Sample {
 	
-	 int id;
+	protected int id;
 	private String name;
 	
 	public void display()

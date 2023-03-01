@@ -15,6 +15,9 @@ class Pen
 }
 
 public class O001_First {
+	
+	
+	
 	public static void main(String[] args) {
 		
 		Pen p = new Pen();

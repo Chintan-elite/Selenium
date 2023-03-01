@@ -1,0 +1,29 @@
+package oops;
+
+class A { 
+	int a=10;
+	
+	public void sample()
+	{
+		System.out.println("Runnig class A sample");
+	}
+}
+
+class B
+{
+	public void display()
+	{
+		System.out.println("Running class B display");
+	}
+}
+
+public class O009_Inheritance {
+	public static void main(String[] args) {
+		
+		
+		
+		B b = new B();
+		b.display();
+		
+	}
+}

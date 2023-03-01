@@ -1,0 +1,27 @@
+package oops;
+
+class Demo
+{
+	public void add(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+	
+	public void square(int a)
+	{
+		System.out.println(a*a);
+	}
+	
+	
+}
+
+public class O006_MethodManipulation {
+	public static void main(String[] args) {
+		
+		
+		Demo d = new Demo();
+		d.add(10, 20);
+		d.square(0);
+		
+	}
+}

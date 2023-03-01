@@ -1,6 +1,12 @@
 package basic;
 
-public class B001_First {
+import oops.Sample;
+
+public class B001_First  {
+	
+	
+	
+	
 	public static void main(String[] args) {
 		
 		int a = 10;
@@ -10,6 +16,7 @@ public class B001_First {
 		
 		int firstName = 10;
 		int myNameIs = 50;
+		
 		
 		
 		

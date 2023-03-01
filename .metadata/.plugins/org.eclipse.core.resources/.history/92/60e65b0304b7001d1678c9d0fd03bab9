@@ -1,0 +1,19 @@
+package oops;
+
+public class Std {
+		
+	private int id;
+	private String name;
+	private String email;
+	public void display()
+	{
+		System.out.println(id+" "+name);
+	}
+	
+	public void setdata(int id, String name,String email)
+	{
+		this.id = id;
+		this.name = name;
+		this.email = email;
+	}
+}

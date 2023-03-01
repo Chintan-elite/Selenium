@@ -1,0 +1,20 @@
+package oops;
+
+class A { 
+	int a=10;
+	
+	public void sample()
+	{
+		System.out.println("Runnig class A sample");
+	}
+}
+
+public class O009_Inheritance {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+}

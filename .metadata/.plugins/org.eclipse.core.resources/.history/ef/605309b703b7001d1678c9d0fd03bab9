@@ -1,0 +1,18 @@
+package oops;
+
+public class Std {
+		
+	private int id;
+	private String name;
+	
+	public void display()
+	{
+		System.out.println(id+" "+name);
+	}
+	
+	public void setdata(int id, String name)
+	{
+		id = id;
+		name = name;
+	}
+}
