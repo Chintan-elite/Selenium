@@ -1,0 +1,13 @@
+package oops;
+
+public class O016_Final {
+	public static void main(String[] args) {
+		
+		final int a = 10;
+		a = 60;
+		System.out.println(a);
+		
+		
+		
+	}
+}

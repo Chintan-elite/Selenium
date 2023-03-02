@@ -1,6 +1,6 @@
 package oops;
 
-public class Std {
+public class Std{
 		
 	private int id;
 	private String name;

@@ -1,0 +1,16 @@
+package oops;
+
+interface I1
+{
+	
+}
+
+
+public class O015_InterfaceDemo {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

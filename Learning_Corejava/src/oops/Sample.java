@@ -1,6 +1,6 @@
 package oops;
 
-public class Sample {
+public class Sample{
 	
 	protected int id;
 	private String name;

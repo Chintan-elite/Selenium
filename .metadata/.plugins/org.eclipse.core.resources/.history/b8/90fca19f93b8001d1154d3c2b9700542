@@ -1,0 +1,28 @@
+package oops;
+
+abstract class Account
+{
+	public abstract void deposite();
+	
+}
+
+class Saving extends Account
+{
+
+	@Override
+	public void deposite() {
+		
+	}
+	
+}
+
+
+
+public class O014_AbstractDemo {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

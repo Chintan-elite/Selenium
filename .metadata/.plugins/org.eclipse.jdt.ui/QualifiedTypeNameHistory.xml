@@ -11,4 +11,11 @@
     <fullyQualifiedTypeName name="oops.A"/>
     <fullyQualifiedTypeName name="oops.B"/>
     <fullyQualifiedTypeName name="oops.Sample"/>
+    <fullyQualifiedTypeName name="P"/>
+    <fullyQualifiedTypeName name="Q"/>
+    <fullyQualifiedTypeName name="R"/>
+    <fullyQualifiedTypeName name="oops.Calc1"/>
+    <fullyQualifiedTypeName name="oops.Sample1"/>
+    <fullyQualifiedTypeName name="oops.Sample2"/>
+    <fullyQualifiedTypeName name="oops.AbsImpl"/>
 </qualifiedTypeNameHistroy>

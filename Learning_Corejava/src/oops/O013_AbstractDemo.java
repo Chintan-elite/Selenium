@@ -2,7 +2,6 @@ package oops;
 
 abstract class Abs
 {
-	int a=10;
 	public abstract void display();
 }
 

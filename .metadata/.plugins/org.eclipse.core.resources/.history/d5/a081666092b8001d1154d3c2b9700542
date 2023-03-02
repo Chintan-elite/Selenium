@@ -1,0 +1,26 @@
+package oops;
+
+class S1
+{
+	S1()
+	{
+		System.out.println("S1 cons calling");
+	}
+}
+
+class S2
+{
+	S2()
+	{
+		System.out.println("S2 cons calling");
+	}
+}
+
+public class Construtrurchaining {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

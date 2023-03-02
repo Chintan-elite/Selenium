@@ -1,0 +1,12 @@
+package oops;
+
+public class Sample extends Std{
+	
+	protected int id;
+	private String name;
+	
+	public void display()
+	{
+		System.out.println("Runinng display");
+	}
+}
