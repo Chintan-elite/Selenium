@@ -1,0 +1,26 @@
+package string;
+
+public class S003_StringBuffer {
+	public static void main(String[] args) {
+		
+		
+		//syncrinosed //time consuming
+		
+		double startTime = System.currentTimeMillis();
+		StringBuffer sb = new StringBuffer("hello");
+		sb.append("java");
+		System.out.println(sb);
+		double endTime = System.currentTimeMillis();
+		
+		
+		
+		//asycronised // less time
+		StringBuilder sb1 = new StringBuilder("hello");
+		sb1.append("java");
+		System.out.println(sb1);
+		
+		
+		System.out.println("Time taken by buffer : "+(endTime-startTime));
+		
+	}
+}

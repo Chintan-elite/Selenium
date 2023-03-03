@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="oops.Pen"/>
     <fullyQualifiedTypeName name="oops.Student"/>
     <fullyQualifiedTypeName name="oops.Emp"/>
-    <fullyQualifiedTypeName name="oops.Std"/>
     <fullyQualifiedTypeName name="oops.NoteBook"/>
     <fullyQualifiedTypeName name="oops.Pen1"/>
     <fullyQualifiedTypeName name="oops.A"/>
@@ -15,7 +14,13 @@
     <fullyQualifiedTypeName name="Q"/>
     <fullyQualifiedTypeName name="R"/>
     <fullyQualifiedTypeName name="oops.Calc1"/>
-    <fullyQualifiedTypeName name="oops.Sample1"/>
     <fullyQualifiedTypeName name="oops.Sample2"/>
     <fullyQualifiedTypeName name="oops.AbsImpl"/>
+    <fullyQualifiedTypeName name="oops.S2"/>
+    <fullyQualifiedTypeName name="oops.Std"/>
+    <fullyQualifiedTypeName name="oops.Sample1"/>
+    <fullyQualifiedTypeName name="oops.Account"/>
+    <fullyQualifiedTypeName name="oops.Saving"/>
+    <fullyQualifiedTypeName name="oops.Loan"/>
+    <fullyQualifiedTypeName name="oops.InterImpl"/>
 </qualifiedTypeNameHistroy>
