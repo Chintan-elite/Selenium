@@ -1,0 +1,24 @@
+package string;
+
+
+class A
+{
+	public void disaply()
+	{
+		System.out.println("display");
+	}
+}
+
+class  B extends A
+{
+	
+}
+
+public class S005_ObjectClass {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

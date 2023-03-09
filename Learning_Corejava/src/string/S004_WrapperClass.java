@@ -19,13 +19,31 @@ public class S004_WrapperClass {
 		int a = 5645656;
 		Integer b = a;
 		int length =  b.toString().length();
-		System.out.println(length);
+		//System.out.println(length);
 		
 		
 		
+//		int x = 0;
+//		Integer y = null;
+//		System.out.println(x);
+//		System.out.println(y);
 		
 		
 		
+		try {
+			String s = "fddddf";
+			String s2 = "2222";
+			Integer s1 = Integer.parseInt(s);
+			Integer s3 = Integer.parseInt(s2);
+			System.out.println(s+s2);
+			System.out.println(s1+s3);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		System.out.println("program runing....");
 		
 		
 		

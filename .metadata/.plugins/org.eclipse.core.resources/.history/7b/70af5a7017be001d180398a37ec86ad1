@@ -1,0 +1,29 @@
+package fileio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class F001_OutputStramDemo {
+	public static void main(String[] args) {
+		
+		
+		try {
+			FileOutputStream fos = new FileOutputStream("D:\\mywork\\test.txt");
+			System.out.println("File created...");
+			
+			String data = "Sun rises in east";
+			byte b[] = data.getBytes();
+			
+			fos.write(b);
+			System.out.println("Data written...");
+		
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+}

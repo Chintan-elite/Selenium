@@ -1,0 +1,17 @@
+package exception;
+
+public class E002_CompileTime {
+	public static void main(String[] args) {
+		
+		
+		try {
+			Class.forName("exception.E001_Demo.java");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+}

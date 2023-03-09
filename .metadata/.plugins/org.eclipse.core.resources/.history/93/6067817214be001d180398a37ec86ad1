@@ -1,0 +1,19 @@
+package exception;
+
+class AgeValidatator
+{
+	public void isValidAgeForVoting(int age)
+	{
+		
+	}
+}
+
+
+public class E003_CustomeException {
+	public static void main(String[] args) {
+		
+		AgeValidatator valid = new AgeValidatator();
+		valid.isValidAgeForVoting(18);
+		
+	}
+}

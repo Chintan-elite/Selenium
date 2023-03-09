@@ -1,0 +1,25 @@
+package string;
+
+
+class A extends Object
+{
+	public void display()
+	{
+		System.out.println("display");
+	}
+}
+
+class  B extends A
+{
+	
+}
+
+public class S005_ObjectClass {
+	public static void main(String[] args) {
+		
+		
+		A a = new A();
+		a.
+		
+	}
+}

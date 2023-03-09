@@ -1,0 +1,12 @@
+package exception;
+
+public class E002_CompileTime {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+}
