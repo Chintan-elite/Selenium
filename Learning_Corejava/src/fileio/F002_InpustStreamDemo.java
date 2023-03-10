@@ -8,7 +8,6 @@ public class F002_InpustStreamDemo {
 	public static void main(String[] args) {
 		
 		FileInputStream fis = null;
-		
 		try {
 			fis = new FileInputStream("D:\\mywork\\test.txt");
 			 
@@ -21,8 +20,6 @@ public class F002_InpustStreamDemo {
 				i = fis.read();
 				
 			}
-			
-			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

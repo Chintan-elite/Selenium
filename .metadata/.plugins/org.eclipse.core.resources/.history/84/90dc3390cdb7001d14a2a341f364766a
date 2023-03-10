@@ -1,7 +1,0 @@
-package oops;
-
-public class O012_MethodOverriding {
-	public static void main(String[] args) {
-		
-	}
-}

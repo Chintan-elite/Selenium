@@ -1,0 +1,12 @@
+package thread;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Hello");
+		Thread.sleep(5000);
+		
+		System.out.println("java");
+	}
+}
