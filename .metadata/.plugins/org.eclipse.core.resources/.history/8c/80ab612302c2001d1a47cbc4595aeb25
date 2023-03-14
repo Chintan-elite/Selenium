@@ -1,0 +1,24 @@
+package collection;
+
+import java.util.TreeSet;
+
+public class C005_treesetdemo {
+	public static void main(String[] args) {
+		
+		
+		TreeSet<String> set = new TreeSet<>();
+		set.add("java");
+		set.add("selenium");
+		set.add("php");
+		set.add("android");
+		set.add("java");
+		
+		
+		for(String s : set)
+		{
+			System.out.println(s);
+		}
+		
+		
+	}
+}

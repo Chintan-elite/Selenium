@@ -53,6 +53,31 @@ Thrade class
 Runnable interface
 
 
+collection Framwork : 
+
+list : 
+Arraylist
+
+set : 
+hashset   //duplication not alowed and stored in random manner
+linked hashset  //preserving insertion order
+tree set
+
+queue
+
+.......
+generic : homoginius
+non-genric : hitroginius
+
+Map : 
+---store data in key value pair;
+
+hashmap
+linkedhashmap
+treemap
+
+
+
 
 
 

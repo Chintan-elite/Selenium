@@ -1,5 +1,7 @@
 package thread;
 
+
+
 class Th1 extends Thread
 {
 	public void run()
