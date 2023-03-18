@@ -1,0 +1,138 @@
+Selenium : 
+
+Automation : write script to do testing
+
+retesting : 
+regrassion :
+
+QTP : quick test pro- HP - paid
+Selenium : opensource
+
+selenum is suite : group of tools
+
+selenium IDE :
+simplest tool in selenium
+record and replay
+
+
+selenium RC : remote control
+java
+php
+python
+perl
+ruby
+C#
+
+selenium script --- middelware ---browser
+
+
+selenium Webdriver
+
+java
+php
+python
+perl
+ruby
+C#
+
+selenium script---browser
+
+selenium Grid : parallel testing
+
+*************************************************************
+basics of automation : 
+ide
+locators
+webelements 
+alert box-popup window - multiple tabs
+keyboard and mouse event
+scrooling
+screenshot
+
+Junit
+TestNG
+
+datadriven
+keyword driven
+
+git
+maven
+jenkins
+
+
+******************************************************
+set browser propety : 
+
+System.setProperty("webdriver.chrome.driver", "D:\\Software\\Selenium_data\\chromedriver_win32\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+
+
+open website : 
+get()
+
+ex : driver.get("website url")
+
+
+Webelements : 
+textbox
+button
+radiobutton
+checkbox
+dropdown
+link
+
+Locators : 
+id
+name
+classname
+xpath
+cssselector
+tagname
+linktext
+partiallinktext
+
+*******************************
+find element : 
+
+ex : WebElement email = driver.findElement(By.id("email"));
+
+type into textbox : 
+sendKeys();
+
+click on element : 
+click();
+
+close opration : 
+close() - particular tab
+quit() - browser close
+
+clear textbox : 
+clear()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

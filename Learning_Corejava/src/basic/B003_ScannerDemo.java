@@ -28,7 +28,7 @@ public class B003_ScannerDemo {
 		double d = 1245.568989845545;
 		System.out.println(d);
 		
-		
+		sc.close();
 		
 		
 	}

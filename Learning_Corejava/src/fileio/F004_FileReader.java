@@ -18,7 +18,7 @@ public class F004_FileReader {
 				 i = rd.read();
 			 }
 			
-		
+			 rd.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
