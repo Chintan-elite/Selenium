@@ -55,6 +55,7 @@ public class B004_FBSignUp {
 		
 		driver.findElement(By.name("websubmit")).click();
 		
-		driver.close();
+		//driver.close();
+		driver.quit();
 	}
 }
