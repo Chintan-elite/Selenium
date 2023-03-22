@@ -111,6 +111,13 @@ clear()
 
 
 
+Misconception : 
+
+1 : alpha numeric id is variable,  we can not use it.
+2 : we can not use compound class as locator
+
+
+
 
 
 
