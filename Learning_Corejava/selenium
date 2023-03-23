@@ -119,6 +119,16 @@ Misconception :
 
 
 
+Types of xpath : 
+relative 
+absolute
+
+1 : //tagname/tagname
+2 : //*[@attribute='value']
+
+//*[@id='email']
+//input[@id='email']
+
 
 
 
