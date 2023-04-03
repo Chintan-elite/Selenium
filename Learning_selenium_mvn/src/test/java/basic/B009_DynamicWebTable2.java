@@ -14,23 +14,82 @@ public class B009_DynamicWebTable2 {
 		
 		WebDriver driver = DriverConnection.connect("https://www.techlistic.com/p/demo-selenium-practice.html");
 		
+//		List<WebElement> head = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/thead/tr/th"));
+//		
+//		for(WebElement h : head)
+//		{
+//			System.out.print(h.getText()+" ");
+//		}
+//		System.out.println();
+//		
+//		
+//		List<WebElement> rows = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr"));
+//		
+//		for(int i=1;i<=rows.size();i++)
+//		{
+//			WebElement bodyh =  driver.findElement(By.xpath("//table[@class='tsc_table_s13']/tbody/tr["+i+"]/th"));
+//			System.out.print(bodyh.getText()+" ");
+//			
+//			List<WebElement> cols =  driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr["+i+"]/td"));
+//			for(WebElement col : cols)
+//			{
+//				System.out.print(col.getText()+" ");
+//			}
+//			System.out.println();
+//		}
+//		
+//		
+//		WebElement footerh = driver.findElement(By.xpath("//table[@class='tsc_table_s13']/tfoot/tr/th"));
+//		WebElement footerc = driver.findElement(By.xpath("//table[@class='tsc_table_s13']/tfoot/tr/td"));
+//		
+//		System.out.println(footerh.getText()+" "+footerc.getText());
+//		
+		
+		//test1
 		List<WebElement> rows = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr"));
-		
-		
-		for(int i=1;i<=rows.size();i++)
+		if(rows.size()==4)
 		{
-			String dt = driver.findElement(By.xpath("//table[@class='tsc_table_s13']/tbody/tr["+i+"]/th")).getText();
-			System.out.print(dt+" ");
-			
-			List<WebElement> cols = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr["+i+"]/td"));
-			for(int j=0;j<cols.size();j++)
+			System.out.println("pass");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+		
+		
+		//test2
+		List<WebElement> frowsh = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tfoot/tr/th"));
+		List<WebElement> frowsc = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tfoot/tr/td"));
+		
+		if((frowsh.size()+frowsc.size())==2)
+		{
+			System.out.println("pass");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+		
+		//test3
+		
+		List<WebElement> brows = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr"));
+		
+		int max =0;
+		for(int i=1;i<=brows.size();i++)
+		{
+			String height =  driver.findElement(By.xpath("//table[@class='tsc_table_s13']/tbody/tr["+i+"]/td[3]")).getText();
+			Integer h = Integer.parseInt(height.substring(0,3));
+			if(h>max)
 			{
-				String data = cols.get(j).getText();
-				System.out.print(data+" ");
+				max = h;
 			}
 			
-			System.out.println();
 		}
+		
+		System.out.println(max);
+		
+		
+		
 		
 		
 		driver.quit();

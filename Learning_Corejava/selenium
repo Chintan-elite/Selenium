@@ -129,6 +129,10 @@ absolute
 //*[@id='email']
 //input[@id='email']
 
+parent to child -> //*[@id='']/div/div
+child to parent -> //*[@id='']/parent::div
+sibling -> //*[@id='']/following-sibling/div , //*[@id='']/preceding-sibling/div
+bytext : //*[text()='xyz'], //*[contains(text(),'Life')]
 
 
 
