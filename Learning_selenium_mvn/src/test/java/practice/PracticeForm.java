@@ -1,8 +1,14 @@
 package practice;
 
+import java.time.Duration;
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import util.DriverConnection;
@@ -12,7 +18,9 @@ public class PracticeForm {
 		
 		
 		WebDriver driver = DriverConnection.connect("https://demoqa.com/automation-practice-form");
-		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
 		driver.findElement(By.id("firstName")).sendKeys("test");
 		driver.findElement(By.id("lastName")).sendKeys("test");
 		driver.findElement(By.id("userEmail")).sendKeys("test@gmail.com");
@@ -21,9 +29,9 @@ public class PracticeForm {
 		driver.findElement(By.id("dateOfBirthInput")).click();
 		
 		
-		String myYear = "2000";
-		String myMonth = "March";
-		String myDate = "10";
+		String myYear = "2005";
+		String myMonth = "June";
+		String myDate = "29";
 		
 		
 		
@@ -35,10 +43,51 @@ public class PracticeForm {
 		Select years = new Select(year);
 		years.selectByVisibleText(myYear);
 		
+		List<WebElement> dates = driver.findElements(By.xpath("//div[@class='react-datepicker__week']/div"));
+		
+		for(WebElement date : dates)
+		{
+			if(date.getText().equals(myDate))
+			{
+				if(date.getAttribute("aria-label").contains(myMonth))
+				{
+					date.click();
+					break;
+				}
+			}
+		}
 		
 		
+		WebElement subject = driver.findElement(By.id("subjectsContainer"));
+		
+		Actions builder = new Actions(driver);
+		builder.click(subject)
+				.sendKeys("Maths")
+				.sendKeys(Keys.ARROW_DOWN)
+				.sendKeys(Keys.ENTER)
+				.sendKeys("Chemistry")
+				.sendKeys(Keys.ARROW_DOWN)
+				.sendKeys(Keys.ENTER)
+				.build()
+				.perform();
 		
 		
+		driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
+		
+		driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\CHINTAN\\Downloads\\peakpx.jpg");
+		
+		
+		driver.findElement(By.id("currentAddress")).sendKeys("surat,gujarat");
+		
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		driver.quit();
 		
 		
 		
