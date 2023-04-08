@@ -76,7 +76,6 @@ public class PracticeForm {
 		
 		driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\CHINTAN\\Downloads\\peakpx.jpg");
 		
-		
 		driver.findElement(By.id("currentAddress")).sendKeys("surat,gujarat");
 		
 		

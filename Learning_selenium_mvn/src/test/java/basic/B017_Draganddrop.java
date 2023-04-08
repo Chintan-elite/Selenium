@@ -14,6 +14,8 @@ public class B017_Draganddrop {
 		
 		WebDriver driver = DriverConnection.connect("https://www.globalsqa.com/demo-site/draganddrop/");
 		
+		MyScreenShot.screenShot(driver, "D://test//d1.png");
+		
 		WebElement frame= driver.findElement(By.xpath("//*[@class='resp-tabs-container']/div[1]/p/iframe"));
 		driver.switchTo().frame(frame);
 		
@@ -33,6 +35,7 @@ public class B017_Draganddrop {
 				.release()
 				.build().perform();
 				
+	    MyScreenShot.screenShot(driver, "D://test//d2.png");
 		
 		Action e2 =  builder.clickAndHold(img2)
 		.moveToElement(trash)
@@ -43,6 +46,7 @@ public class B017_Draganddrop {
 		
 		e2.perform();
 		
+		MyScreenShot.screenShot(driver, "D://test//d3.png");
 		
 	}
 }
