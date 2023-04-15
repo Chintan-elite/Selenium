@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="thread.Th1"/>
     <fullyQualifiedTypeName name="thread.Th2"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="thread.T1"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="basic.CalcTest_parameterised"/>
     <fullyQualifiedTypeName name="basic.CalcTest"/>
     <fullyQualifiedTypeName name="org.junit.Ignore"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 </qualifiedTypeNameHistroy>
