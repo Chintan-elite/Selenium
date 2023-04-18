@@ -32,6 +32,8 @@ public class LoginTest_Multipleparamter {
 		password.sendKeys(pass);
 		driver.findElement(By.name("login")).click();
 		
+		
+		
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
