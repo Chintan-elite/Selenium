@@ -20,6 +20,8 @@ public class FBTest {
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "Facebook – log in or sign";
 		assertEquals(expectedTitle, actualTitle);
+		
+		
 	}
 	
 	
@@ -36,5 +38,9 @@ public class FBTest {
 		String actual = driver.getTitle();
 		String expected = "Log in";
 		assertEquals(expected, actual);
+		
+		
 	}
+	
+	
 }

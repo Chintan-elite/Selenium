@@ -24,13 +24,15 @@ public class FBTestListener implements ITestListener {
 			File source = screenShot.getScreenshotAs(OutputType.FILE);
 			File dest = new File(path);
 			
-			try {
-				Files.copy(source, dest);
-				System.out.println("Screenshot taken");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
+				try {
+					Files.copy(source, dest);
+					System.out.println("Screenshot taken");
+					
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			
 			
 			

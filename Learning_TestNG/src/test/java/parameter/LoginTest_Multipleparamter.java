@@ -47,6 +47,8 @@ public class LoginTest_Multipleparamter {
 	@DataProvider(name="dp")
 	public Object[][] getdata()
 	{
+		
+		
 		Object obj[][] = new Object[3][2];
 		
 		obj[0][0] = "test@gmail.com";
