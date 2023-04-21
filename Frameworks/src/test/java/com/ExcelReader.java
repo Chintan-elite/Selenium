@@ -10,8 +10,6 @@ public class ExcelReader
 	String path;
 	String name;
 	
-	
-	
 	public ExcelReader(String path, String name) {
 		super();
 		this.path = path;

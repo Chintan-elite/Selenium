@@ -3,7 +3,7 @@ package com;
 public class ExcelMain {
 	public static void main(String[] args) {
 		
-		ExcelReader rd = new ExcelReader("C:\\Users\\CHINTAN\\OneDrive\\Desktop\\test.xlsx","reg");
+		ExcelReader rd = new ExcelReader("C:\\Users\\CHINTAN\\OneDrive\\Desktop\\test.xlsx","login");
 		
 		int rows =  rd.getRowCount();
 		System.out.println("Rows : "+rows);
@@ -15,7 +15,7 @@ public class ExcelMain {
 //		System.out.println(data);
 		
 		
-		for(int i=0;i<rows;i++)
+		for(int i=1;i<rows;i++)
 		{
 			for(int j=0;j<cols;j++)
 			{
