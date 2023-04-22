@@ -57,7 +57,7 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
     <fullyQualifiedTypeName name="com.google.common.io.Files"/>
     <fullyQualifiedTypeName name="org.testng.ITestContext"/>
-    <fullyQualifiedTypeName name="com.ExcelReader"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
+    <fullyQualifiedTypeName name="com.ExcelReader"/>
 </qualifiedTypeNameHistroy>
