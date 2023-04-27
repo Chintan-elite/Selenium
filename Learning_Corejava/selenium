@@ -137,7 +137,8 @@ bytext : //*[text()='xyz'], //*[contains(text(),'Life')]
 
 
 
-mvn commands:
+maven commands:
+
 mvn clean
 mvn compile
 mvn test : all test
