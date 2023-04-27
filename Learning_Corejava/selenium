@@ -137,6 +137,18 @@ bytext : //*[text()='xyz'], //*[contains(text(),'Life')]
 
 
 
+mvn commands:
+mvn clean
+mvn compile
+mvn test : all test
+
+class test
+
+mvn test -D="classname"
+
+profile test : 
+
+mvn test -P="profilename"
 
 
 

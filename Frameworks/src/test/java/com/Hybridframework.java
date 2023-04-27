@@ -71,8 +71,7 @@ public class Hybridframework {
 			{
 				WebElement value = driver.findElement(By.id(location));
 				Select values = new  Select(value);
-				values.selectByVisibleText(data);
-						
+				values.selectByVisibleText(data);		
 			}
 			else if(locator.equals("name"))
 			{
