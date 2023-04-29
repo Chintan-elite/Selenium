@@ -1,0 +1,3 @@
+07:06:40.652 [main] INFO  basic.NewTest - Running alpha test
+07:06:40.659 [main] INFO  basic.NewTest - Running login test
+07:06:40.661 [main] INFO  basic.NewTest - Running beta test

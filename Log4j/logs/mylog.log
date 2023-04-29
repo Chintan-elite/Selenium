@@ -1,0 +1,6 @@
+06:46:09.895 [main] DEBUG com.MyTest2 - This is debug message
+06:46:09.897 [main] INFO  com.MyTest2 - This is info message
+06:46:09.897 [main] ERROR com.MyTest2 - This is error message
+06:50:46.950 [main] DEBUG com.MyTest2 - This is debug message
+06:50:46.952 [main] INFO  com.MyTest2 - This is info message
+06:50:46.952 [main] ERROR com.MyTest2 - This is error message
