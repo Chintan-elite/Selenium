@@ -5,7 +5,7 @@
     <classes>
       <class name="testcase.HomeTest">
         <methods>
-          <include name="test"/>
+          <include name="test" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- testcase.HomeTest -->
     </classes>

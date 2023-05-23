@@ -25,6 +25,12 @@ public class LoginPage {
 	@FindBy(name="login")
 	WebElement login;
 	
+	@FindBy(linkText = "Forgotten password?")
+	WebElement forgotpass;
+	
+	@FindBy(linkText = "Create new account")
+	WebElement newaccount;
+	
 	
 	public WebElement getEmail()
 	{
@@ -41,7 +47,15 @@ public class LoginPage {
 		return login;
 	}
 	
+	public WebElement forgotpass()
+	{
+		return forgotpass;
+	}
 	
+	public WebElement newAccount()
+	{
+		return newaccount;
+	}
 	
 	
 	
