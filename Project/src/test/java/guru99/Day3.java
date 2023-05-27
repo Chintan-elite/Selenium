@@ -33,8 +33,8 @@ public class Day3 {
 		
 		
 		} catch (Exception e) {
-			//assertEquals(driver.getTitle(), "Guru99 Bank Manager HomePage");
-			e.printStackTrace();
+			assertEquals(driver.getTitle(), "Guru99 Bank Manager HomePage");
+			
 		}
 			
 	}
