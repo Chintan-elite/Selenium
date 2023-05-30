@@ -18,6 +18,10 @@ public class MakeMyTrip {
 			System.setProperty("webdriver.firefox.marionette", "D:\\Software\\Selenium_data\\geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
 			driver.get("https://www.makemytrip.com");
+			driver.navigate().refresh();
+			driver.manage().window().maximize();
+			
+			Thread.sleep(2000);
 			
 			String fromCity = "Surat, India";
 			String toCity = "Ahmedabad, India";
@@ -53,7 +57,41 @@ public class MakeMyTrip {
 				}
 			}
 			
+		//*********************date*************************
 			
+			String fromDate = "25";
+			String fromMonth = "May";
+			String fromYear = "2024";
+			
+			while(!driver.findElement(By.xpath("//div[@class='DayPicker-Caption']/div")).getText().contains(fromYear))
+			{
+				driver.findElement(By.xpath("//span[@aria-label='Next Month']")).click();
+			}
+			
+			
+			while(!driver.findElement(By.xpath("//div[@class='DayPicker-Months']/div[2]/div/div")).getText().contains(fromMonth))
+			{
+				driver.findElement(By.xpath("//span[@aria-label='Next Month']")).click();
+			}
+			
+			
+			
+			List<WebElement> days = driver.findElements(By.xpath("//div[@class='DayPicker-Month']/div[3]/div/div"));
+			
+			for(WebElement day : days)
+			{
+				System.out.println(day.getText());
+				if(day.getText().equals(fromDate))
+				{
+					System.out.println(day.getAttribute("aria-label"));
+					if(day.getAttribute("aria-label").contains(fromMonth))
+					{
+						
+						day.click();
+						break;
+					}
+				}
+			}
 			
 			
 			
