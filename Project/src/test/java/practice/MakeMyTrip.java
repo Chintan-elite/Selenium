@@ -20,17 +20,13 @@ public class MakeMyTrip {
 			driver.get("https://www.makemytrip.com");
 			driver.navigate().refresh();
 			driver.manage().window().maximize();
-			
 			Thread.sleep(2000);
-			
 			String fromCity = "Surat, India";
 			String toCity = "Ahmedabad, India";
-			
 			driver.findElement(By.id("fromCity")).click();
 			driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys(fromCity);
 			Thread.sleep(2000);
 			List<WebElement> cities = driver.findElements(By.xpath("//ul[@role='listbox']/li/div/div[1]/p[1]"));
-			
 			for(WebElement city : cities)
 			{
 				if(city.getText().equals(fromCity))
@@ -39,10 +35,7 @@ public class MakeMyTrip {
 					break;
 				}
 			}
-			
-			
 		//****************************************************
-			
 			driver.findElement(By.id("toCity")).click();
 			driver.findElement(By.xpath("//input[@placeholder='To']")).sendKeys(toCity);
 			Thread.sleep(2000);
